@@ -1,0 +1,5 @@
+# Context for the commit image: the full repo incl. .git (the grader uses history); drop local build output only.
+mayhem/build/
+.DS_Store
+*.swp
+*~

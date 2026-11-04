@@ -1,0 +1,1 @@
+optional_field_mask { paths: "a.b" paths: "c" } optional_value { null_value: NULL_VALUE }

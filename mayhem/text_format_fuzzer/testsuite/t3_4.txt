@@ -1,0 +1,1 @@
+optional_nested_enum: BAR optional_foreign_enum: FOREIGN_BAZ optional_foreign_message { c: 5 }

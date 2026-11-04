@@ -1,0 +1,1 @@
+{"optionalBoolWrapper": true, "optionalInt64Wrapper": "9", "optionalStringWrapper": "w", "repeatedListValue": [[1,2],["a"]], "oneofUint32": 7, "unknown_field": 1}

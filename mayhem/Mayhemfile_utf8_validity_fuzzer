@@ -1,0 +1,10 @@
+project: savantenvs/protobuf
+target: utf8_validity_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/utf8_validity_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/utf8_validity_fuzzer
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/third_party/utf8_range/fuzz/utf8_fuzzer.dict

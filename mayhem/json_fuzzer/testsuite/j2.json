@@ -1,0 +1,1 @@
+{"optionalNestedMessage": {"a": 1, "corecursive": {"optionalInt32": 2}}, "repeatedInt32": [1,2,3], "repeatedString": ["a","b"], "optionalNestedEnum": "BAR", "mapStringString": {"k": "v"}, "mapInt32Int32": {"1": 2}}

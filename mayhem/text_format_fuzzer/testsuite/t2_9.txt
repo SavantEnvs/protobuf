@@ -1,0 +1,1 @@
+default_int32: 5 default_string: "x" default_bool: true

@@ -1,0 +1,1 @@
+{"optionalDuration": "1.5s", "optionalTimestamp": "2024-01-02T03:04:05.678Z", "optionalFieldMask": "fooBar,baz", "optionalStruct": {"a": [1, "x", null, {"b": false}]}, "optionalValue": 3.5, "optionalAny": {"@type": "type.googleapis.com/google.protobuf.Duration", "value": "3s"}}
