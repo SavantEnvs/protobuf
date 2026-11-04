@@ -1,0 +1,1 @@
+optional_nested_message { a: 3 corecursive { optional_int32: 9 } } optional_foreign_message { c: 5 }

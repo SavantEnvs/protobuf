@@ -1,0 +1,16 @@
+wire.int32=150
+wire.string=testing
+wire.repeated=1,2,3
+serialized=10feffffffffffffffff0168017a04ff006162
+text=optional_int32: 150
+optional_string: "testing"
+repeated_int32: 1
+repeated_int32: 2
+repeated_int32: 3
+text.double=2.5 nested.a=7
+json.status=0
+json={"optionalInt32":150,"optionalString":"testing","repeatedInt32":[1,2,3]}
+json.parse.status=0 int32=41 duration=3.500000000 strings=2 float_inf=1
+json.bad.ok=0
+proto2.default_int32=-123456789
+proto2.unknown_fields=1 roundtrip=a01f05

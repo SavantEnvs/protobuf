@@ -1,0 +1,1 @@
+[protobuf_test_messages.proto2.extension_int32]: 5 [protobuf_test_messages.proto2.groupfield] { group_int32: 1 }

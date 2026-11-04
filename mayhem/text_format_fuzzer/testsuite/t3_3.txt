@@ -1,0 +1,1 @@
+optional_string: "hello \303\251" optional_bytes: "\001\002\377" optional_nested_message { a: 3 corecursive { optional_int32: 9 } }

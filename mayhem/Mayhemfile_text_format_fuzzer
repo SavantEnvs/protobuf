@@ -1,0 +1,10 @@
+project: savantenvs/protobuf
+target: text_format_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/text_format_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/text_format_fuzzer
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/mayhem/text_format_fuzzer/text_format_fuzzer.dict

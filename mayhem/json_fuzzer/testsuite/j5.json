@@ -1,0 +1,1 @@
+{"optional_int32": 5, "optional_nested_message": {"a": 7}, "data": {"groupInt32": 3}, "[protobuf_test_messages.proto2.extension_int32]": 6}

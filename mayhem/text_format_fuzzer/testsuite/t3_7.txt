@@ -1,0 +1,1 @@
+map_int32_int32 { key: 1 value: 2 } map_string_string { key: "k" value: "v" } map_string_nested_message { key: "n" value { a: 5 } }

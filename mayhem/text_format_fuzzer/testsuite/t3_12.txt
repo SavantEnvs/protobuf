@@ -1,0 +1,1 @@
+optional_struct { fields { key: "x" value { number_value: 1.5 } } fields { key: "y" value { list_value { values { string_value: "z" } } } } }

@@ -1,0 +1,1 @@
+optional_any { [type.googleapis.com/protobuf_test_messages.proto3.TestAllTypesProto3.NestedMessage] { a: 1 } }

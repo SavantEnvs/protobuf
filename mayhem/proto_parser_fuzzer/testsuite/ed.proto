@@ -1,0 +1,5 @@
+edition = "2023";
+package ed;
+option features.field_presence = IMPLICIT;
+message A { string s = 1 [features.utf8_validation = NONE]; B b = 2 [features.message_encoding = DELIMITED]; extensions 100 to max; }
+message B { repeated int32 v = 1 [features.repeated_field_encoding = EXPANDED]; extend A { int32 x = 100; } }

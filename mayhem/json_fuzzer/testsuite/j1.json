@@ -1,0 +1,1 @@
+{"optionalInt32": 1, "optionalInt64": "2", "optionalUint32": 3, "optionalUint64": "4", "optionalBool": true, "optionalString": "str", "optionalBytes": "AQID", "optionalFloat": 1.5, "optionalDouble": "NaN"}

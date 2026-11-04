@@ -1,0 +1,9 @@
+project: savantenvs/protobuf
+target: ProtobufFuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/ProtobufFuzzer/testsuite
+cmds:
+  - cmd: /mayhem/ProtobufFuzzer
+    libfuzzer: true
+    timeout: 10

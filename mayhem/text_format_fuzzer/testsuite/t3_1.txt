@@ -1,0 +1,1 @@
+optional_int32: 1 optional_int64: -2 optional_uint32: 3 optional_uint64: 4 optional_sint32: -5 optional_sint64: 6

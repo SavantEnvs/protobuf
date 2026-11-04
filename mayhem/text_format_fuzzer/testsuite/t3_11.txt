@@ -1,0 +1,1 @@
+optional_bool_wrapper { value: true } optional_int32_wrapper { value: 5 } optional_string_wrapper { value: "w" } repeated_duration { seconds: 5 nanos: 1 } optional_timestamp { seconds: 1700000000 }
